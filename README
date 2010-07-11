@@ -1,0 +1,8 @@
+This script will download your AIB transactions for all accounts into a CSV between the specified date and yesterday
+    -p, --pac PAC                    Your 5-digit Personal Access Code
+    -n, --regnum REGNUM              Registration Number
+    -h, --home HOME                  Last 4 digits of your home phone number
+    -w, --work WORK                  Last 4 digits of your work phone number
+    -v, --visa VISA                  Last 4 digits of your primary AIB visa card
+    -d, --date DATE                  The start date of the transactions dd/mm/yyyy format
+        --help                       Show this message
