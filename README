@@ -1,3 +1,9 @@
+**Update**: 4 years later, [AIB have finally introduced a CSV export option](http://glui.me/?i=i0btykyfi1i3156/2014-02-10_at_14.57.png/)
+
+
+
+# README
+
 AIB (one of the 2 main Irish banks) lives in the stone ages and doesn't provide any method of downloading your transactions in a spreadsheet-compatible format. They've recently introduced a PDF export which is designed to save them money but they show no signs of introducing something to help their customers (and, incidentally, the people who are propping up their bank). Grrr... end of the rant... here's the solution:
 
 This script will download your AIB transactions for all accounts into a CSV between the specified date and yesterday
