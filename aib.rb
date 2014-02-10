@@ -1,7 +1,7 @@
 require "rubygems"
 require "mechanize"
 require "logger"
-require "fastercsv"
+require "csv"
 require 'date'
 require 'optparse'
 
@@ -122,7 +122,7 @@ def update_transactions(from, to)
              end
              pp transactions
              
-             FasterCSV.open("#{account_name}_#{from.to_s}-#{to.to_s}.csv", "w") do |csv|
+             CSV.open("#{account_name}_#{from.to_s}-#{to.to_s}.csv", "w") do |csv|
                 csv << ["Date", "Description", "Debit", "Credit", "Balance"]
                 transactions.each { |t| csv << t }
              end
